@@ -1,5 +1,4 @@
 <?php 
-
 require_once 'connection.php';
 header("Access-Control-Allow-Origin: http://localhost:3000");
 header("Access-Control-Allow-Headers: *");
@@ -24,7 +23,7 @@ echo json_encode($result);
 
 else{
 
-    echo "error!";    }
+    echo "error occured!";    }
 }
 
 
