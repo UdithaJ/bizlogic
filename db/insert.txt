@@ -1,0 +1,2 @@
+INSERT INTO `user`(`username`, `name`, `status`, `password`, `email`,`createdTime` ) 
+VALUES ('uditha','uditha Janadara',1,'admin123','uditha@gmail.com',CURRENT_TIME);
